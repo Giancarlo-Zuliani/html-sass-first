@@ -2,6 +2,16 @@ main{
   @include flex;
   margin-top: $fixheigth;
   background-color: $maincolor;
-  height: calc(100vh - (#{$fixheigth} * 2));
-  overflow-y:scroll;
+  max-height: calc(100vh - (#{$fixheigth} * 2));
+  aside{
+    overflow-y:auto;
+    color:$textmaincolor;
+    &:hover{
+      background-color: $textmaincolor;
+      color:$maincolor;
+    }
+  }
+  section{
+    background-color: $textmaincolor;
+  }
 }

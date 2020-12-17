@@ -1,10 +1,8 @@
-@import "_common.scss";
-@import "_variables.scss";
-
 @mixin flex{
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  align-items: stretch;
 };
 
 @mixin fix{

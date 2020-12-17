@@ -1,2 +1,13 @@
 nav{
+  background-color: $textmaincolor;
+  ul{
+    list-style: none;
+    li{
+      display: inline-block;
+      &:hover{
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+  }
 }

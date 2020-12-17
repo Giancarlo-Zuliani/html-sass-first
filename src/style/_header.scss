@@ -1,6 +1,7 @@
-@import "_mixins.scss";
-
 header{
   @include  fix;
   @include upper;
+  h1{
+    color:$textmaincolor;
+  }
 }
