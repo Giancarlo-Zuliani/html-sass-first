@@ -1,0 +1,6 @@
+@import "_mixins.scss";
+
+header{
+  @include  fix;
+  @include upper;
+}

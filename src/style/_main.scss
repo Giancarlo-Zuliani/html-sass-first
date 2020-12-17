@@ -1,0 +1,7 @@
+main{
+  @include flex;
+  margin-top: $fixheigth;
+  background-color: $maincolor;
+  height: calc(100vh - (#{$fixheigth} * 2));
+  overflow-y:scroll;
+}

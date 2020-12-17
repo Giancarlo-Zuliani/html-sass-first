@@ -1,0 +1,23 @@
+@import "_common.scss";
+@import "_variables.scss";
+
+@mixin flex{
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+};
+
+@mixin fix{
+  height:$fixheigth;
+  position: fixed;
+  left:0;
+  background-color: grey;
+}
+
+@mixin bottom{
+  bottom:0;
+}
+
+@mixin upper{
+  top:0;
+}

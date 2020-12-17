@@ -1,5 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+.wd-1 {
+  width: 10%;
+}
+
+.wd-2 {
+  width: 20%;
+}
+
+.wd-3 {
+  width: 30%;
+}
+
+.wd-4 {
+  width: 40%;
+}
+
+.wd-5 {
+  width: 50%;
+}
+
+.wd-6 {
+  width: 60%;
+}
+
+.wd-7 {
+  width: 70%;
+}
+
+.wd-8 {
+  width: 80%;
+}
+
+.wd-9 {
+  width: 90%;
+}
+
+.wd-10 {
+  width: 100%;
+}
+
 header {
-  background-color: red;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer {
+  margin: 0 auto;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+.wd-1 {
+  width: 10%;
+}
+
+.wd-2 {
+  width: 20%;
+}
+
+.wd-3 {
+  width: 30%;
+}
+
+.wd-4 {
+  width: 40%;
+}
+
+.wd-5 {
+  width: 50%;
+}
+
+.wd-6 {
+  width: 60%;
+}
+
+.wd-7 {
+  width: 70%;
+}
+
+.wd-8 {
+  width: 80%;
+}
+
+.wd-9 {
+  width: 90%;
+}
+
+.wd-10 {
+  width: 100%;
+}
+
+header {
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer {
+  margin: 0 auto;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
   height: 150px;
+  position: fixed;
+  left: 0;
+  background-color: grey;
+  top: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+.wd-1 {
+  width: 10%;
+}
+
+.wd-2 {
+  width: 20%;
+}
+
+.wd-3 {
+  width: 30%;
+}
+
+.wd-4 {
+  width: 40%;
+}
+
+.wd-5 {
+  width: 50%;
+}
+
+.wd-6 {
+  width: 60%;
+}
+
+.wd-7 {
+  width: 70%;
+}
+
+.wd-8 {
+  width: 80%;
+}
+
+.wd-9 {
+  width: 90%;
+}
+
+.wd-10 {
+  width: 100%;
+}
+
+header {
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer {
+  margin: 0 auto;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer {
+  height: 150px;
+  position: fixed;
+  left: 0;
+  background-color: grey;
+  bottom: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+.wd-1 {
+  width: 10%;
+}
+
+.wd-2 {
+  width: 20%;
+}
+
+.wd-3 {
+  width: 30%;
+}
+
+.wd-4 {
+  width: 40%;
+}
+
+.wd-5 {
+  width: 50%;
+}
+
+.wd-6 {
+  width: 60%;
+}
+
+.wd-7 {
+  width: 70%;
+}
+
+.wd-8 {
+  width: 80%;
+}
+
+.wd-9 {
+  width: 90%;
+}
+
+.wd-10 {
+  width: 100%;
+}
+
+header {
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer {
+  margin: 0 auto;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  margin-top: 150px;
+  background-color: lightgreen;
+  height: calc(100vh - (150px * 2));
+  overflow-y: scroll;
 }
 

@@ -1,0 +1,6 @@
+@import "_mixins.scss";
+
+footer{
+  @include  fix;
+  @include bottom;
+}

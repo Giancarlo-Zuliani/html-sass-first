@@ -1,4 +1,27 @@
-header{
-  background-color: red;
-  height:150px;
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  overflow-y: hidden;
+}
+
+$topcolor : grey;
+$maincolor: lightgreen;
+$textmaincolor: crimson;
+
+
+@for $i from 1 through 10 {
+  $wid:10% * $i;
+  .wd-#{$i} {
+    width: $wid;
+  }
+}
+
+@each $item in header, footer , main {
+  #{$item}{
+    margin:0 auto;
+    text-align: center;
+  }
 }
